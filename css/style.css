@@ -1,0 +1,54 @@
+*{
+    padding:0;
+    margin:0;
+}
+.container{
+    width:600px;
+    height:500px;
+    margin:0 auto;
+}
+#playground{
+    width:450px;
+    height:100%;
+    background-color:pink;
+    float:left;
+    position:relative;
+}
+#menu{
+    width:150px;
+    height:100%;
+    background-color:blue;
+    float:left;
+}
+#snake{
+    width:20px;
+    height:20px;
+    background-color:red;
+    position:absolute;
+    left:0;
+    top:0;
+}
+#food{
+    width:20px;
+    height:20px;
+    background-color:yellow;
+    position:absolute;
+}
+.body{
+    width:20px;
+    height:20px;
+    background-color:green;
+    position:absolute;;
+    top:0;
+    left:0;
+}
+#score{
+    font-size:30px;
+    font-weight:bold;
+    color:black;
+}
+#menu div{
+    font-size:20px;
+    font-weight:bold;
+    margin-left:20px;
+}
